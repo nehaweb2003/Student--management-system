@@ -1,0 +1,174 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body */
+body{
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#0077b6;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* Navigation */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:50px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
+}
+
+.hero h2{
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin-bottom:20px;
+}
+
+.hero button{
+    background:#0077b6;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero button:hover{
+    background:#023e8a;
+}
+
+/* Form Section */
+.student-form{
+    background:white;
+    width:70%;
+    margin:30px auto;
+    padding:30px;
+    border-radius:10px;
+}
+
+.student-form h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.student-form label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+.student-form input,
+.student-form select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.student-form button{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.student-form button:hover{
+    background:darkgreen;
+}
+
+/* Table */
+.student-table{
+    width:90%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.student-table h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#0077b6;
+    color:white;
+    padding:12px;
+}
+
+td{
+    text-align:center;
+    padding:10px;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+td button{
+    padding:8px 15px;
+    margin:5px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+td button:first-child{
+    background:orange;
+    color:white;
+}
+
+td button:last-child{
+    background:red;
+    color:white;
+}
+
+/* Footer */
+footer{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
